@@ -1,6 +1,6 @@
 Algoritmo CajeroAutomático
 	saldo=0.00
-		
+	saldo=400000.00
 	Repetir
 		Escribir "**************************************************************"
 		Escribir "				ESTE ES UN CAJERO AUTOMÁTICO					 "
@@ -12,14 +12,18 @@ Algoritmo CajeroAutomático
 		Leer opc
 		Segun opc
 			1:
+				Limpiar Pantalla
 				escribir "Su saldo es: " saldo
 			2:
+				Limpiar Pantalla
 				Escribir "Cuánto dinero quiere extraer: "
 				leer extraer
 				si extraer>saldo Entonces
+					Limpiar Pantalla
 					Escribir "No hay dinero suficiente para extraer ese monto"
 				SiNo
 					saldo=saldo - extraer
+					Limpiar Pantalla
 					Escribir "Extracción correcta, su saldo es: " saldo
 				FinSi
 			3:
