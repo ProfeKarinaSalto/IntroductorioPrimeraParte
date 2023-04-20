@@ -29,7 +29,7 @@ Algoritmo CajeroAutomático
 			3:
 				Escribir "Cuánto dinero quiere ingresar: "
 				leer ingresar
-				saldo=saldo - ingresar
+				saldo=saldo + ingresar
 				Escribir "Ingreso correcto, su saldo es: " saldo
 			4:	
 				Escribir "Hasta luego"
