@@ -7,7 +7,8 @@ Algoritmo CajeroAutomático
 		Escribir "1- Mostrar Saldo"
 		Escribir "2- Extraer Dinero"
 		Escribir "3- Ingresar Dinero"
-		Escribir "4- Salir"
+		Escribir "4- Imprimir Movimientos"
+		Escribir "5- Salir"
 		Escribir "**************************************************************"
 		Leer opc
 		Segun opc
@@ -31,7 +32,7 @@ Algoritmo CajeroAutomático
 				leer ingresar
 				saldo=saldo + ingresar
 				Escribir "Ingreso correcto, su saldo es: " saldo
-			4:	
+			5:	
 				Escribir "Hasta luego"
 			De Otro Modo:
 				Escribir "Opción incorrecta"
