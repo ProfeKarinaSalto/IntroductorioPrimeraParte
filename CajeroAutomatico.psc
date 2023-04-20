@@ -22,7 +22,17 @@ Algoritmo CajeroAutomático
 					saldo=saldo - extraer
 					Escribir "Extracción correcta, su saldo es: " saldo
 				FinSi
+			3:
+				Escribir "Cuánto dinero quiere ingresar: "
+				leer ingresar
+				saldo=saldo - ingresar
+				Escribir "Ingreso correcto, su saldo es: " saldo
+			4:	
+				Escribir "Hasta luego"
+			De Otro Modo:
+				Escribir "Opción incorrecta"
 		FinSegun
+		
 	Hasta Que opc=4
 	
 FinAlgoritmo
